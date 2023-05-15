@@ -15,7 +15,7 @@ const Footer = () => {
       },
       ];
   return (
-    <footer className='text-center py-10 font-semibold bg-gray-800'>
+    <footer className='text-center py-10 font-semibold bg-gray-900'>
       <p className="text-white">&copy;NitteTrail</p>
       <ul className='flex items-center justify-center space-x-20 mt-10 text-white'>
         {links.map((link)=><li>{link.linkname}</li>)}
