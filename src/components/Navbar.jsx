@@ -14,6 +14,7 @@ const links = [{
   linkname:"Contact",
   url:"#contact",
 },
+
 ];
 
   return (
@@ -24,7 +25,7 @@ const links = [{
       </h1>
       <ul className='flex justify-between items-center space-x-10 font-semibold'>
         {links.map((link)=>(<li className='hidden lg:block text-lg text-white hover:text-gray-600 cursor-pointer'>{link.linkname}</li>))}
-        <button className='hidden lg:block text-lg mr-8 bg-red-600 hover:bg-red-700 text-white font-semi-bold py-1 px-4 rounded'>Login</button>
+        <button className='hidden lg:block text-lg mr-8 bg-nitteYellow hover:bg-yellow-300 text-black font-semi-bold py-1 px-4 rounded'>Login</button>
       </ul></div>
       
     </nav>
