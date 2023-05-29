@@ -24,8 +24,8 @@ const links = [{
         NitteTrail
       </h1>
       <ul className='flex justify-between items-center space-x-10 font-semibold'>
-        {links.map((link)=>(<li className='hidden lg:block text-lg text-white hover:text-gray-600 cursor-pointer'>{link.linkname}</li>))}
-        <button className='hidden lg:block text-lg mr-8 bg-nitteYellow hover:bg-yellow-300 text-black font-semi-bold py-1 px-4 rounded nittetext1'>Login</button>
+        {links.map((link)=>(<li className='hidden lg:block text-lg text-white hover:text-gray-300 cursor-pointer'>{link.linkname}</li>))}
+        <button className='hidden lg:block text-lg mr-8 bg-white hover:bg-gray-200 text-black font-semi-bold py-1 px-4 rounded '>Login</button>
       </ul></div>
       
     </nav>
