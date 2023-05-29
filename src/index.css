@@ -6,3 +6,37 @@
 body{
     background: #000000f3;
 }
+
+.nittetext{
+    
+	background: linear-gradient(90deg, #ff0000, #ffff00, #ff00f3, #0033ff,#ff00c4,#ff0000);
+    background-size: 400%;
+    
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    animation: animate 20s linear infinite
+}
+@keyframes animate {
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+
+.nittetext1{
+    
+	background: linear-gradient(90deg, #ff0000, #ffff00, #ff00f3, #0033ff,#ff00c4,#ff0000);
+    background-size: 1000%;
+    
+	/* -webkit-text-fill-color: transparent; */
+    animation: animate 20s linear infinite
+}@keyframes animate {
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 300%;
+    }
+}
