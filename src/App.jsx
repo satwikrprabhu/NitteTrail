@@ -3,14 +3,21 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import './App.css'
 import Footer from './components/Footer'
+import StudyHero from './components/StudyHero'
+
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const [page,setPage] = useState(true)
+  
+  function changePage(){
+    setPage(!page);
+  }
 
   return (
     <>
-<Navbar/>
-<Hero />
+<Navbar btn={changePage}/>
+{page?<Hero />:<StudyHero />}
 <Footer />
     </>
   )

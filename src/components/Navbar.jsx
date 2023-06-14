@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Navbar = () => {
+const Navbar = (props) => {
 
 const links = [{
   linkname: "Home",
@@ -29,7 +29,7 @@ const links = [{
       
       <ul className='flex justify-between items-center space-x-10 font-semibold'>
         {links.map((link)=>(<li className='hidden lg:block text-lg text-white hover:text-gray-300 cursor-pointer'>{link.linkname}</li>))}
-        <button className='hidden lg:block text-lg mr-8 bg-white hover:bg-gray-200 text-black font-semi-bold py-1 px-4 rounded '>Login</button>
+        <button className='hidden lg:block text-lg mr-8 bg-white hover:bg-gray-200 text-black font-semi-bold py-1 px-4 rounded' onClick={props.btn}>Login</button>
       </ul></div>
       
     </nav>
