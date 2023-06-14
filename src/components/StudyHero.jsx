@@ -18,7 +18,7 @@ const years = [
   },
   {
     title: '4th Year',
-    description: 'ECE, Civil, Mech, BTE, AIML',
+    description: 'CSE, ECE, Civil, Mech, BTE, AIML',
     link: '#',
   },
 ];
