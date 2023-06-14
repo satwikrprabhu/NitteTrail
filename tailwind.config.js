@@ -8,7 +8,7 @@ export default {
         'nitteColor': '#2e3192',
       },
       backgroundColor:{
-      'nitteYellow': '#e7e625',
+      'nitteYellow': '#57f0ee',
     },
     backgroundImage: {
       'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

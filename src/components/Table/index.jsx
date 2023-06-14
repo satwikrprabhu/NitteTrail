@@ -2,16 +2,16 @@ import React from 'react';
 
 const Table = ({ staffs }) => {
   return (
-    <div className='flex flex-row'>
+    <div className='flex flex-row justify-center gap-6 mx-8 w-auto'>
       
       {staffs.map((staff) => (
-        <div className='flex flex-col p-10 items-center h-50 mx-4 my-10 cursor-pointer transition-all ease text-black bg-nitteYellow opacity-70 rounded hover:scale-105' key={staff._id}>
-          <div className='flex items-center object-contain'><span className='font-bold'>{staff.name}</span></div>
-          <h2 className='font-semibold'>{staff.designation}</h2>
-          <div className='font-medium'>{staff.block}</div><br />
-          <div className='font-medium'>{staff.floor}</div><br />
-          <div className='font-normal'>{staff.description}</div>
-          <div className='flex items-center justify-center'>
+        <div className='flex flex-col p-6 items-center justify-center h-60  my-16 cursor-pointer transition-all ease text-black bg-nitteYellow opacity-70 rounded-xl mix-blend-luminosity hover:scale-105 text-center' key={staff._id}>
+          <div className='flex items-center text-center'><span className='font-bold'>{staff.name}</span></div>
+          <h2 className='font-semibold text-center'>{staff.designation}</h2>
+          <div className='font-medium block'>{staff.block}</div><br />
+          <div className='font-medium text-center'>{staff.floor}</div><br />
+          <div className='font-normal text-center block'>{staff.description}</div>
+          <div className='flex items-center justify-center text-center'>
             {Array.isArray(staff.dept) ? (
               staff.dept.map((dept, index) => (
                 <p key={dept}>
@@ -20,7 +20,7 @@ const Table = ({ staffs }) => {
                 </p>
               ))
             ) : (
-              <p>{staff.dept}</p>
+              <p className='capitalize'>{staff.dept}</p>
             )}
           </div>
         </div>
