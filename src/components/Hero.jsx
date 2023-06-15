@@ -4,7 +4,7 @@ import axios from 'axios'
 import Search from './Search';
 import Table from './Table';
 
-const base_url = "http://localhost:8080/api/staff";
+const base_url = "https://nittetrail-server-satwikrprabhu.onrender.com/api/staff";
 
 const NitteTrail = () => {
 
