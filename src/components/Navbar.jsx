@@ -1,6 +1,9 @@
 import React from 'react'
+import { useState } from 'react';
 
 const Navbar = (props) => {
+
+  const [toggleTitle,setToggleTitle] = useState("NitteTrail");
 
 const links = [{
   linkname: "Home",
@@ -17,6 +20,12 @@ const links = [{
 
 ];
 
+const titleset = () => {
+  let  val = toggleTitle;
+  val==="NitteTrail"?setToggleTitle("Study Resource"):setToggleTitle("NitteTrail");
+  
+}
+
   return (
     <nav className='fixed w-full top-0 z-20  border-b border-gray-400/20 bg-white bg-opacity-5 backdrop-blur-lg backdrop-filter'>
       <div className='flex justify-between items-center mx-auto max-w-5xl h-16'><div className='flex items-center ml-5'>
@@ -29,7 +38,13 @@ const links = [{
       
       <ul className='flex justify-between items-center space-x-10 font-semibold'>
         {links.map((link)=>(<li className='hidden lg:block text-lg text-white hover:text-gray-300 cursor-pointer'>{link.linkname}</li>))}
-        <button className='hidden lg:block text-lg mr-8 bg-white hover:bg-gray-200 text-black font-semi-bold py-1 px-4 rounded' onClick={props.btn}>Login</button>
+        <button className='hidden lg:block text-lg mr-8 bg-white hover:bg-gray-200 text-black font-semi-bold py-1 px-4 rounded'
+         onClick={()=>{
+          props.btn();
+          titleset();      
+        }
+        }>{toggleTitle}</button>
+        
       </ul></div>
       
     </nav>

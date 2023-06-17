@@ -3,8 +3,8 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import './App.css'
 import Footer from './components/Footer'
-import StudyHero from './components/StudyHero'
-
+// import StudyHero from './components/StudyHero'
+import Branch from './components/pages/Branch'
 
 function App() {
 
@@ -17,7 +17,7 @@ function App() {
   return (
     <>
 <Navbar btn={changePage}/>
-{page?<Hero />:<StudyHero />}
+{page?<Hero />:<Branch />}
 <Footer />
     </>
   )
