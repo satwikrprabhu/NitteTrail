@@ -51,7 +51,7 @@ const Branch = () => {
     return (
         <div className='md:h-screen pt-28 md:pt-28 bg-gray-950'>
             <h1 className="text-5xl font-bold text-center text-white">Branches</h1>
-            <div className="flex flex-col md:flex-row flex-wrap  text-white justify-evenly p-12">
+            <div className="flex flex-col md:flex-row flex-wrap  text-white justify-evenly pt-8 px-6 md:p-12">
                 {branchtitles.map((branch, index) => (
                     <div
                         key={index}
