@@ -4,6 +4,9 @@ export default {
   "./src/**/*.{js,ts,jsx,tsx}",],
   theme: {
     extend: {
+      fontFamily:{
+        'Poppins':['Poppins', 'sans-serif'],
+      },
       color:{
         'nitteColor': '#2e3192',
         'primary': '#F5F8FA', // light gray

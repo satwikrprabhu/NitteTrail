@@ -55,13 +55,14 @@ const Branch = () => {
                 {branchtitles.map((branch, index) => (
                     <div
                         key={index}
-                        className="md:w-1/4 mb-8 md:p-8 md:mb-0 text-white"
+                        className="md:w-1/4 mb-8 md:p-8 md:mb-0 text-white "
                     >
                         <div
-                            className="border rounded-lg p-4 border-white"
+                            className="rounded-lg p-7 bg-white opacity-75 flex justify-between items-centerbg-clip-padding backdrop-filter backdrop-blur-0 bg-opacity-20 border border-black hover:opacity-100"
                         >
-                            <h3 className="text-xl font-bold">{branch.title}</h3>
-                            <a href={branch.url} className="text-white">Link</a>
+                            <h3 className="text-2xl font-bold text-white text-center">{branch.title}</h3>
+                            <a href={branch.url} className="text-black bg-white border border-black px-3 py-1 font-semibold rounded-md
+                            opacity-100">Explore</a>
                         </div>
                     </div>
                 ))}

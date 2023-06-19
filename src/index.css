@@ -41,3 +41,59 @@ body{
     }
 }
 
+
+/* Branches Cards */
+
+.card{
+ position: relative;
+ box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
+            inset -5px -5px 5px rgba(255,255,255,0.5),
+             -5px -5px 5px rgba(0,0,0,0.05),
+             -5px -5px 5px rgba(255,255,255,0.5);
+
+border-radius: 15px;
+
+
+top: 20px;
+left: 20px;
+right: 20px;
+bottom: 20px;
+transition: 0.5s;
+}
+
+
+.card div h3{
+
+ 
+
+  /* color: rgba(0, 0, 0, 0.2); */
+  transition: 0.5s;
+}
+
+
+.card:hover .card div h3{
+
+z-index: 1;
+transition:1;
+}
+
+.card:hover{
+    transform: translateY(-20px);
+box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+background: linear-gradient(45deg,#b95ce4);
+}
+
+.link{
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    background: #03a9f4;
+    margin-top: 15px;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+
