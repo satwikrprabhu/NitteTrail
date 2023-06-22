@@ -2,7 +2,7 @@ import React from 'react';
 
 const Table = ({ staffs }) => {
   return (
-    <div className='flex flex-col md:flex-row justify-center gap-6 mx-8 my-16 w-auto'>
+    <div className='flex flex-col md:flex-row justify-center gap-6 mx-8 py-16 w-auto'>
       {staffs.map((staff) => (
         <div
           className='flex flex-col p-6 items-center justify-center h-60 my-[.25rem] cursor-pointer transition-all ease text-white shadow bg-gray-700 opacity-85 rounded-xl hover:scale-105 text-center flex-1 flex-basis-0'
