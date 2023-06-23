@@ -38,7 +38,7 @@ const semtitles = [
 const CCE = () => {
     return (
         <div className='min-h-screen flex flex-col justify-center pt-28 md:pt-28 bg-gray-950'>
-            <h1 className="text-5xl font-bold text-center text-white">Semesters</h1>
+            <h1 className="text-5xl font-bold text-center text-white">Semester</h1>
             <div className="flex flex-col md:flex-row md:flex-wrap  text-white justify-around pt-8 px-6 md:p-12">
                 {semtitles.map((sem, index) => (
                     <div
