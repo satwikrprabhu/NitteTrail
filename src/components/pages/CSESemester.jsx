@@ -24,7 +24,7 @@ const years = [
   ];
   
 
-const ISE = () => {
+const CSESemester = () => {
   return (
     <div className="flex flex-wrap h-screen justify-center items-center bg-gray-950 pt-20">
       {years.map((year, index) => (
@@ -46,4 +46,4 @@ const ISE = () => {
   )
 }
 
-export default ISE
+export default CSESemester;

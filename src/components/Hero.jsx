@@ -33,10 +33,10 @@ const NitteTrail = () => {
 
 
   return (
-    <div className='min-h-screen bg-gray-950' style={{paddingTop:search?"10rem":"16rem"}}
+    <div className='min-h-screen bg-gray-950' style={{paddingTop:search?"14rem":"16rem"}}
     >
        {search?"":<h1 className='text-7xl font-bold text-center text-white flex justify-center items-center nittetext font-Poppins'>NitteTrail</h1>}
-        <form className='xl:mx-[25rem] lg:mx-[20rem] md:mx-[15rem] sm:mx-[10rem] mx-8 mt-8'>   
+        <form className='xl:mx-[25rem] lg:mx-[16rem] md:mx-[9rem] sm:mx-[7rem] mx-8 mt-8'>   
     <label for="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
     <div className="relative">
         <div className="absolute inset-y-0 right-0 flex items-center pr-5 pointer-events-none">

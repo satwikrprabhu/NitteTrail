@@ -12,39 +12,39 @@ const branchtitles = [
     },
     {
         title: "ECE",
-        url: "",
+        url: "ece",
     },
     {
         title: "AIML",
-        url: "",
+        url: "aiml",
     },
     {
         title: "EEE",
-        url: "",
+        url: "eee",
     },
     {
         title: "CCE",
-        url: "",
+        url: "cce",
     },
     {
         title: "Mech",
-        url: "",
+        url: "mech",
     },
     {
         title: "Civil",
-        url: "",
+        url: "civil",
     },
     {
         title: "BTE",
-        url: "",
+        url: "bte",
     },
     {
         title: "RI",
-        url: "",
+        url: "ri",
     },
     {
         title: "AIDS",
-        url: "",
+        url: "aids",
     },
 ];
 
@@ -56,10 +56,10 @@ const Branch = () => {
                 {branchtitles.map((branch, index) => (
                     <div
                         key={index}
-                        className="md:w-1/3 xl:w-1/4 mb-8 md:p-3 lg:p-8 md:mb-0 text-white hover:scale-105 transition-all hover:shadow-gray-100 md:text-md"
+                        className="md:w-1/3 xl:w-1/4 mb-8 md:p-3 lg:p-8 md:mb-0 text-white hover:scale-105 transition-all hover:shadow-gray-100 md:text-md  "
                     >
                         <div
-                            className="rounded-lg p-7 bg-white bg-opacity-20 flex justify-between items-center bg-clip-padding backdrop-filter backdrop-blur-0  hover:"
+                            className="rounded-lg p-7 bg-white bg-opacity-20 flex justify-between items-center bg-clip-padding backdrop-filter backdrop-blur-0 "
                         >
                             <h3 className="text-2xl font-bold text-white text-center">{branch.title}</h3>
                             <Link to={branch.url} className="text-black bg-white border-none  px-3 py-1 font-semibold rounded-md
