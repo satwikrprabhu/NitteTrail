@@ -29,10 +29,10 @@ const titleset = () => {
   return (
     <nav className='fixed w-full top-0 z-20  border-b border-gray-400/20 bg-white bg-opacity-5 backdrop-blur-lg backdrop-filter'>
       <div className='flex justify-between items-center mx-auto max-w-5xl h-16'><div className='flex items-center ml-5'>
-        <img src="./nittelogotrans.png" alt="" width="50px"/>
-      <h1 className='hidden md:block text-2xl ml-2 font-bold text-white cursor-pointer'>
+        <Link to='/'><img src="./nittelogotrans.png" alt="" width="50px"/></Link>
+      <Link to='/' className='hidden md:block text-2xl ml-2 font-bold text-white cursor-pointer'>
         NitteTrail
-      </h1>
+      </Link>
         
       </div>
       

@@ -39,7 +39,7 @@ const branchtitles = [
         url: "",
     },
     {
-        title: "Robotics",
+        title: "RI",
         url: "",
     },
     {
