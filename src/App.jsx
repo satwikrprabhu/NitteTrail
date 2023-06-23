@@ -3,8 +3,11 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import './App.css'
 import Footer from './components/Footer'
-// import StudyHero from './components/StudyHero'
 import Branch from './components/pages/Branch'
+import { Routes,Route } from 'react-router-dom'
+import CSE from './components/pages/CSE'
+import ISE from './components/pages/ISE'
+
 
 function App() {
 
@@ -17,7 +20,16 @@ function App() {
   return (
     <>
 <Navbar btn={changePage}/>
-{page?<Hero />:<Branch />}
+
+<Routes>
+<Route path="/" element={page?<Hero />:<Branch />} />
+<Route path="/cse" element={<CSE />} />
+<Route path="/ise" element={<ISE />} />
+{/* <Route path="/ece" element={<ECE/>} />
+<Route path="/aiml" element={<AIML />} />
+<Route path="/eee" element={<EEE />} /> */}
+</Routes>
+
 <Footer />
     </>
   )

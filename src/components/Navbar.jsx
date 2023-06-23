@@ -1,9 +1,9 @@
 import React from 'react'
 import { useState } from 'react';
-
+import { Link } from 'react-router-dom';
 const Navbar = (props) => {
 
-  const [toggleTitle,setToggleTitle] = useState("NitteTrail");
+  const [toggleTitle,setToggleTitle] = useState("Study Resources");
 
 const links = [{
   linkname: "Home",
@@ -38,12 +38,13 @@ const titleset = () => {
       
       <ul className='flex justify-between items-center space-x-10 font-semibold'>
         {links.map((link)=>(<li className='hidden lg:block text-lg text-white hover:text-gray-300 cursor-pointer'>{link.linkname}</li>))}
+        <Link to='/'>
         <button className='hidden lg:block text-lg mr-8 bg-white hover:bg-gray-200 text-black font-semi-bold py-1 px-4 rounded'
          onClick={()=>{
           props.btn();
           titleset();      
         }
-        }>{toggleTitle}</button>
+        }>{toggleTitle}</button> </Link>
         
       </ul></div>
       
