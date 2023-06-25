@@ -17,6 +17,7 @@ import RI from './components/pages/Branches/RI'
 import AIDS from './components/pages/Branches/AIDS'
 import Error404 from './components/pages/Error404'
 import Construction from './components/pages/Construction'
+import CSE3 from './components/pages/CSE/CSE3'
 function App() {
 
   const [page,setPage] = useState(true)
@@ -32,6 +33,7 @@ function App() {
 <Routes>
 <Route path="/" element={page?<Hero />:<Branch />} />
 <Route path='/cse' element={<CSE />} />
+<Route path='/cse/3' element={<CSE3 />} />
 <Route path="/ise" element={<ISE />} />
 <Route path="/ece" element={<ECE/>} />
 <Route path="/aiml" element={<AIML />} />

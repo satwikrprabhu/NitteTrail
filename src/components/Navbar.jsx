@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 const Navbar = (props) => {
 
-  const [toggleTitle,setToggleTitle] = useState("Study Resources");
+  const [toggleTitle,setToggleTitle] = useState("Resource");
 
 const links = [{
   linkname: "Home",
@@ -22,7 +22,7 @@ const links = [{
 
 const titleset = () => {
   let  val = toggleTitle;
-  val==="NitteTrail"?setToggleTitle("Study Resource"):setToggleTitle("NitteTrail");
+  val==="NitteTrail"?setToggleTitle("Resource"):setToggleTitle("NitteTrail");
   
 }
 
@@ -39,7 +39,7 @@ const titleset = () => {
       <ul className='flex justify-between items-center space-x-10 font-semibold'>
         {links.map((link)=>(<li className='hidden lg:block text-lg text-white hover:text-gray-300 cursor-pointer'>{link.linkname}</li>))}
         <Link to='/'>
-        <button className='hidden lg:block text-lg mr-8 bg-white hover:bg-gray-200 text-black font-semi-bold py-1 px-4 rounded'
+        <button className='lg:block text-lg mr-4 bg-gray-700 hover:bg-gray-700 text-white font-semi-bold py-1 px-4 rounded'
          onClick={()=>{
           props.btn();
           titleset();      
