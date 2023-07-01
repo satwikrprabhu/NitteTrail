@@ -2,28 +2,28 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 const semtitles = [
     {
-        title: "Data Structures",
-        url: "https://drive.google.com/drive/folders/16HPuHp8nRUoV_Be57V5oeCQzVR521ku6?usp=drive_link",
-    },
-    {
-        title: "DSD",
-        url: "https://drive.google.com/drive/folders/167vOg9kCCJ2TM5N57aROxpiE4k83Qjaq?usp=drive_link",
-    },
-    {
-        title: "COA",
-        url: "https://drive.google.com/drive/folders/1WtCLvDwf3gWWk-84ryKpW2dkxHiW14UG?usp=drive_link",
-    },
-    {
         title: "Maths",
-        url: "https://drive.google.com/drive/folders/1obT_g1cZxPZOB6GDP1cPO2ar7Aqfi63S?usp=drive_link",
+        url: "https://drive.google.com/drive/folders/1K6GugB1joNP9TfyGttnU7GCGexP8PkQn?usp=sharing",
     },
     {
-        title: "Java",
-        url: "https://drive.google.com/drive/folders/1--SBySjJI0mwzSGQ91rIEOMhflfu9CFD?usp=drive_link",
+        title: "Basic Electronics",
+        url: "https://drive.google.com/drive/folders/1U4nQLh4eHd3_6-28SuLzUeJzQTgg3QBc?usp=drive_link",
+    },
+    {
+        title: "Civil",
+        url: "https://drive.google.com/drive/folders/1_dKq354RfIOifcVQ8vgxch2QDEPVMIRk?usp=drive_link",
+    },
+    {
+        title: "Physics",
+        url: "https://drive.google.com/drive/folders/17kXyVZqtt5vgaXLpCR9mtSO9aXp-XC2D?usp=drive_link",
+    },
+    {
+        title: "Constitution",
+        url: "https://drive.google.com/drive/folders/1ONTJbeAkokSH6eGdvJH1jtVB1I-itjav?usp=drive_link",
     },
 ];
 
-const CSE3 = () => {
+const Physics = () => {
     return (
         <div className='min-h-screen flex flex-col justify-center pt-28 md:pt-28 bg-gray-950'>
             <h1 className="text-5xl font-bold text-center text-white">Semester</h1>
@@ -47,4 +47,4 @@ const CSE3 = () => {
     );
 };
 
-export default CSE3;
+export default Physics;
