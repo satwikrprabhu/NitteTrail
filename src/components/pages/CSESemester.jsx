@@ -3,7 +3,7 @@ import React from 'react'
 const years = [
     {
       title: '1st Year',
-      description: 'Physics Cycle & Chemistry Cycle',
+      description: 'Physics Cycle & Chem Cycle',
       link: '#',
     },
     {

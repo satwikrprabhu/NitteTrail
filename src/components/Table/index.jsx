@@ -8,7 +8,7 @@ const Table = ({ staffs }) => {
           className='flex flex-col p-5 items-center justify-center h-60 my-[.25rem] cursor-pointer transition-all ease text-white shadow bg-gray-700 bg-opacity-70
           rounded-xl hover:scale-105 text-center flex-1 '
           key={staff._id}
-        >
+        >         
           <div className='flex items-center justify-center'>
             <span className='font-bold'>{staff.name}</span>
           </div>
@@ -18,6 +18,7 @@ const Table = ({ staffs }) => {
           <div className='font-normal text-center block'>
             {staff.description}
           </div>
+
           <div className='flex justify-center items text-center'>
             {Array.isArray(staff.dept) ? (
               staff.dept.map((dept, index) => (

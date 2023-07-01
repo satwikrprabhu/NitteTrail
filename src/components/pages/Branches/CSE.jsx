@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 const semtitles = [
     {
         title: "Physics Cycle",
-        url: "phy",
+        url: "1",
     },
     {
         title: "Chemistry Cycle",
-        url: "chem",
+        url: "2",
     },
     {
         title: "3rd Semester",
@@ -37,8 +37,8 @@ const semtitles = [
 
 const CSE = () => {
     return (
-        <div className='min-h-screen flex flex-col justify-center pt-28 md:pt-28 bg-gray-950'>
-            <h1 className="text-5xl font-bold text-center text-white">Semester</h1>
+        <div className='min-h-screen flex flex-col justify-center pt-28 md:pt-24 lg:28 bg-gray-950'>
+            <h1 className="text-5xl md:text-5xl font-bold text-center text-white">Semester</h1>
             <div className="flex flex-col md:flex-row md:flex-wrap  text-white justify-around pt-8 px-6 md:p-12">
                 {semtitles.map((sem, index) => (
                     <div
@@ -46,10 +46,10 @@ const CSE = () => {
                         className="md:w-1/3 xl:w-1/4 mb-8 md:p-3 lg:p-8 md:mb-0 text-white hover:scale-105 transition-all hover:shadow-gray-100 md:text-md"
                     >
                         <div
-                            className="rounded-lg p-7 md:p-10 bg-white bg-opacity-20 flex justify-between items-center bg-clip-padding backdrop-filter backdrop-blur-0  hover:"
+                            className="rounded-lg p-7 md:p-8 bg-white bg-opacity-20 flex justify-between gap-4 items-center bg-clip-padding backdrop-filter backdrop-blur-0  hover:"
                         >
-                            <h3 className="text-2xl font-bold text-white text-left">{sem.title}</h3>
-                            <Link to={sem.url} className="text-black bg-white border-none  px-3 py-1 font-semibold rounded-md
+                            <h3 className="text-2xl md:text-sm lg:text-2xl font-bold text-white text-left">{sem.title}</h3>
+                            <Link to={sem.url} className="text-black bg-white border-none md:text-sm  px-3 py-1 font-semibold rounded-md
                             hover:bg-slate-200">Explore</Link>
                         </div>
                     </div>

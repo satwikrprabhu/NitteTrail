@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 const semtitles = [
     {
         title: "Physics Cycle",
-        url: "phy",
+        url: "1",
     },
     {
         title: "Chemistry Cycle",
-        url: "chem",
+        url: "2",
     },
     {
         title: "3rd Semester",
