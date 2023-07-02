@@ -8,7 +8,6 @@ import Table from './Table';
 const base_url = import.meta.env.VITE_REACT_APP_API_URL;
 
 const NitteTrail = () => {
-
   const [obj,setObj] = useState({});
   const [sort,setSort] = useState({sort:"dept",order:"desc"});
   const [filterDept,setFilterDept] = useState([]);
