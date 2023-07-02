@@ -2,28 +2,40 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 const subtitles = [
     {
-        title: "Data Analysis Algorithm",
-        url: "https://drive.google.com/drive/folders/16HPuHp8nRUoV_Be57V5oeCQzVR521ku6?usp=drive_link",
+        title: "Chemistry",
+        url: "https://drive.google.com/drive/folders/10xgX5C-yDksBZcX2ORfzSBb2SIOtlyUj?usp=drive_link",
     },
     {
-        title: "Microprocessors",
-        url: "https://drive.google.com/drive/folders/1kHeidayUO0ptFYPMUQBWFW3V9SNCijfB?usp=drive_link",
+        title: "Mech",
+        url: "https://drive.google.com/drive/folders/11zgQgUqZ4Qwj-ABTR1WeG5U-sao5UYsR?usp=drive_link",
     },
     {
-        title: "SEPM",
-        url: "https://drive.google.com/drive/folders/1ej94mbEHRuGIdUgKre60_yisfTh4Av17?usp=drive_link",
+        title: "CPP",
+        url: "https://drive.google.com/drive/folders/1UsTSySKHoNTMqGIx7dQzXncUYd_XmGLw?usp=drive_link",
+    },
+    {
+        title: "BEE",
+        url: "https://drive.google.com/drive/folders/1-S_8yn-EVcVkRuYD_1Im8HLD1VGM-UsK?usp=drive_link",
     },
     {
         title: "Maths",
-        url: "https://drive.google.com/drive/folders/1LiWd8CyTgizbcSr1PjHOcgdGZDUQJhr9?usp=drive_link",
+        url: "https://drive.google.com/drive/folders/1gqvtnJDRUl3cg6ZDiwvEfuEFgTD2-i1Y?usp=drive_link",
     },
     {
-        title: "Python",
-        url: "https://drive.google.com/drive/folders/1tynwR6cfe8V-2_biy7D3dN5lHziluQig?usp=drive_link",
+        title: "EVS",
+        url: "https://drive.google.com/drive/folders/1HC1JjieGplNIhnICnqBvF3ceXtxF9U5D?usp=drive_link",
+    },
+    {
+        title: "IT Skills",
+        url: "https://drive.google.com/drive/folders/1lOIqfpt5mfZOBXpz6lYjd9zTWXT8Q2Da?usp=drive_link",
+    },
+    {
+        title: "Biology",
+        url: "https://drive.google.com/drive/folders/1wJNgBcu0ygIFjLkwRyzehVuPuLgs_Lt3?usp=drive_link",
     },
 ];
 
-const CSE3 = () => {
+const Chemistry = () => {
     return (
         <div className='min-h-screen flex flex-col justify-center pt-28 md:pt-28 bg-gray-950'>
             <h1 className="text-5xl font-bold text-center text-white">Subject</h1>
@@ -47,4 +59,4 @@ const CSE3 = () => {
     );
 };
 
-export default CSE3;
+export default Chemistry;

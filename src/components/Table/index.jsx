@@ -12,11 +12,14 @@ const Table = ({ staffs }) => {
           <div className='flex items-center justify-center'>
             <span className='font-bold'>{staff.name}</span>
           </div>
-          <h2 className='font-semibold text-center'>{staff.designation}</h2>
+          <h2 className='font-medium text-center'>{staff.designation}</h2>
           <div className='font-medium'>{staff.block}</div>
           <div className='font-medium text-center'>{staff.floor}</div>
           <div className='font-normal text-center block'>
             {staff.description}
+          </div>
+          <div className='font-normal text-center block'>
+            {staff.room}
           </div>
 
           <div className='flex justify-center items text-center'>
@@ -30,7 +33,7 @@ const Table = ({ staffs }) => {
                 </p>
               ))
             ) : (
-              <p className='capital lowercase'>{staff.dept}</p>
+              <p className=''>{staff.dept}</p>
             )}
           </div>
         </div>

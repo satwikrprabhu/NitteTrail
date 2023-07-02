@@ -14,6 +14,7 @@ import AIDS from '../components/pages/Branches/AIDS'
 import Resource from '../components/pages/Resource'
 import Error404 from '../components/pages/Error404'
 import Physics from '../components/pages/Physics Cycle/Physics'
+import Chemistry from '../components/pages/Chemistry Cycle/Chemistry'
 import CSE3 from '../components/pages/CSE/CSE3'
 import CSE4 from '../components/pages/CSE/CSE4'
 
@@ -39,7 +40,7 @@ const Routes = () => {
             children:[
               { path: '*', element: <Error404 /> },
               { path: '1', element: <Physics /> },
-              { path: '2', element: <Resource /> },
+              { path: '2', element: <Chemistry /> },
               { path: '3', element: <CSE3 /> },
               { path: '4', element: <CSE4 /> },
               { path: '5', element: <Resource /> },
@@ -56,8 +57,8 @@ const Routes = () => {
         { path: 'ise',
         children:[
           { path: '*', element: <Error404 /> },
-          { path: '1', element: <Resource /> },
-          { path: '2', element: <Resource /> },
+          { path: '1', element: <Physics /> },
+          { path: '2', element: <Chemistry /> },
           { path: '3', element: <Resource /> },
           { path: '4', element: <Resource /> },
           { path: '5', element: <Resource /> },
@@ -74,8 +75,8 @@ const Routes = () => {
         { path: 'ese',
             children:[
               { path: '*', element: <Error404 /> },
-              { path: '1', element: <Resource /> },
-              { path: '2', element: <Resource /> },
+              { path: '1', element: <Physics /> },
+              { path: '2', element: <Chemistry /> },
               { path: '3', element: <Resource /> },
               { path: '4', element: <Resource /> },
               { path: '5', element: <Resource /> },
@@ -92,8 +93,8 @@ const Routes = () => {
         { path: 'aiml',
             children:[
               { path: '*', element: <Error404 /> },
-              { path: '1', element: <Resource /> },
-              { path: '2', element: <Resource /> },
+              { path: '1', element: <Physics /> },
+              { path: '2', element: <Chemistry /> },
               { path: '3', element: <Resource /> },
               { path: '4', element: <Resource /> },
               { path: '5', element: <Resource /> },
@@ -110,8 +111,8 @@ const Routes = () => {
         { path: 'eee',
             children:[
               { path: '*', element: <Error404 /> },
-              { path: '1', element: <Resource /> },
-              { path: '2', element: <Resource /> },
+              { path: '1', element: <Physics /> },
+              { path: '2', element: <Chemistry /> },
               { path: '3', element: <Resource /> },
               { path: '4', element: <Resource /> },
               { path: '5', element: <Resource /> },
@@ -128,8 +129,8 @@ const Routes = () => {
         { path: 'cce',
             children:[
               { path: '*', element: <Error404 /> },
-              { path: '1', element: <Resource /> },
-              { path: '2', element: <Resource /> },
+              { path: '1', element: <Physics /> },
+              { path: '2', element: <Chemistry /> },
               { path: '3', element: <Resource /> },
               { path: '4', element: <Resource /> },
               { path: '5', element: <Resource /> },
@@ -146,8 +147,8 @@ const Routes = () => {
         { path: 'civil',
             children:[
               { path: '*', element: <Error404 /> },
-              { path: '1', element: <Resource /> },
-              { path: '2', element: <Resource /> },
+              { path: '1', element: <Physics /> },
+              { path: '2', element: <Chemistry /> },
               { path: '3', element: <Resource /> },
               { path: '4', element: <Resource /> },
               { path: '5', element: <Resource /> },
@@ -164,8 +165,8 @@ const Routes = () => {
         { path: 'mech',
             children:[
               { path: '*', element: <Error404 /> },
-              { path: '1', element: <Resource /> },
-              { path: '2', element: <Resource /> },
+              { path: '1', element: <Physics /> },
+              { path: '2', element: <Chemistry /> },
               { path: '3', element: <Resource /> },
               { path: '4', element: <Resource /> },
               { path: '5', element: <Resource /> },
@@ -182,8 +183,8 @@ const Routes = () => {
         { path: 'bte',
             children:[
               { path: '*', element: <Error404 /> },
-              { path: '1', element: <Resource /> },
-              { path: '2', element: <Resource /> },
+              { path: '1', element: <Physics /> },
+              { path: '2', element: <Chemistry /> },
               { path: '3', element: <Resource /> },
               { path: '4', element: <Resource /> },
               { path: '5', element: <Resource /> },
@@ -201,8 +202,8 @@ const Routes = () => {
         { path: 'ri',
             children:[
               { path: '*', element: <Error404 /> },
-              { path: '1', element: <Resource /> },
-              { path: '2', element: <Resource /> },
+              { path: '1', element: <Physics /> },
+              { path: '2', element: <Chemistry /> },
               { path: '3', element: <Resource /> },
               { path: '4', element: <Resource /> },
               { path: '5', element: <Resource /> },
@@ -219,8 +220,8 @@ const Routes = () => {
         { path: 'aids',
             children:[
               { path: '*', element: <Error404 /> },
-              { path: '1', element: <Resource /> },
-              { path: '2', element: <Resource /> },
+              { path: '1', element: <Physics /> },
+              { path: '2', element: <Chemistry /> },
               { path: '3', element: <Resource /> },
               { path: '4', element: <Resource /> },
               { path: '5', element: <Resource /> },
