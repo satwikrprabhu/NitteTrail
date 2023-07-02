@@ -6,7 +6,7 @@ const Table = ({ staffs }) => {
       {staffs.map((staff) => (
         <div
           className='flex flex-col p-5 items-center justify-center h-60 my-[.25rem] cursor-pointer transition-all ease text-white shadow bg-gray-700 bg-opacity-70
-          rounded-xl hover:scale-105 text-center flex-1 '
+          rounded-xl hover:scale-105 text-center flex-1'
           key={staff._id}
         >         
           <div className='flex items-center justify-center'>

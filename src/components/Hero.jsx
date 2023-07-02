@@ -4,7 +4,8 @@ import axios from 'axios'
 import Search from './Search';
 import Table from './Table';
 
-const base_url = "https://nittetrail-server-satwikrprabhu.onrender.com/api/staff";
+
+const base_url = import.meta.env.VITE_REACT_APP_API_URL;
 
 const NitteTrail = () => {
 
