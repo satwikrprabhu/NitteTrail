@@ -11,7 +11,7 @@ const links = [{
 },
 {
   linkname: "About",
-  url: "#about",
+  url: "/about",
 },
 {
   linkname:"Contact",
@@ -37,7 +37,7 @@ const titleset = () => {
       </div>
       
       <ul className='flex justify-between items-center space-x-10 font-semibold'>
-        {links.map((link)=>(<li className='hidden lg:block text-lg text-white hover:text-gray-300 cursor-pointer'>{link.linkname}</li>))}
+        {links.map((link)=>(<Link to={link.url}><li className='hidden lg:block text-lg text-white hover:text-gray-300 cursor-pointer'>{link.linkname}</li></Link>))}
         <Link to='/'>
         <button className='lg:block text-lg mr-4 bg-gray-700 hover:bg-gray-700 text-white font-semi-bold py-1 px-4 rounded'
          onClick={()=>{
