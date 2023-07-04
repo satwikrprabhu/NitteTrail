@@ -17,7 +17,7 @@ import Physics from '../components/pages/Physics Cycle/Physics'
 import Chemistry from '../components/pages/Chemistry Cycle/Chemistry'
 import CSE3 from '../components/pages/CSE/CSE3'
 import CSE4 from '../components/pages/CSE/CSE4'
-
+import About from '../components/About'
 
 
 const Routes = () => {
@@ -26,6 +26,9 @@ const Routes = () => {
     {
       path: '/',
       // element: page?<Hero />:<Branch />,
+    },{
+      path:'/about',
+      element:<About />
     },
     {
       path: '/',
