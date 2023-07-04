@@ -43,7 +43,7 @@ const team = [
 
 const About = () => {
   return (
-    <div className='flex flex-col justify-center items-center'>
+    <div className='flex flex-col justify-center items-center min-h-screen bg-gray-950 text-white'>
     <div>About us</div>
     <div className='flex flex-row justify-center items-center'>
       <div className='flex flex-col border border-gray-500 backdrop-filter'>
