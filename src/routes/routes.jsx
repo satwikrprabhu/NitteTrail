@@ -26,10 +26,11 @@ const Routes = () => {
     {
       path: '/',
       // element: page?<Hero />:<Branch />,
-    },{
-      path:'/about',
-      element:<About />
     },
+    // {
+    //   path:'/about',
+    //   element:<About />
+    // },
     {
       path: '/',
       // element: page?<Hero />:<Branch />,
